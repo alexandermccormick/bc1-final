@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Cagliostro');
+ /* Resets */
+ * {
+     margin:0;
+ }
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* /Resets*/
+
+/* Helper Classes */
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.centered {
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+/* /Helper Classes */
+
+/* Navbar */
+.nav {
+    background-color: #000;
+}
+.logo {
+    height: 75px;
+}
+.nav-links {
+    margin-top: 24px;
+}
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.link {
+    color: #ff0;
+    padding: 5px 10px;
+    border-radius: 100%;
+}
+.link:hover {
+    background-color: #ff0;
+    color: #000;
+}
+.link.active {
+    background-color: #ff0;
+    color: #000;
+}
+/* /Navbar */
+
+/* Main */
+.hero {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+.hero-text {
+    text-shadow: 5px 5px 10px #ff0;
+    margin-top: 75px;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 200%;
+    color: #fff;
+    /*background-color: rgba(255, 255, 0, .6);*/
+}
+.welcome {
+    height: 500px;
+}
+.side-menu {
+    height: inherit;
+    background-color: orange;
+    width: 25%;
+}
+/*.side-menu>ul {*/
+/*    width: inherit;*/
+/*    height: inherit;*/
+/*}*/
+.side-menu>ul li {
+    font-size: 200%;
+    background-color: #7ad32b;
+}
+.content {
+    height: inherit;
+    background: blue;
+    width: 75%;
+}
+.content>h1 {
+    font-family: 'Cagliostro', sans-serif;
+    color: #8d6a4d;
+}
+/* /Main */
+
+/* Footer */
+.box {
+    width: calc(100% / 3);
+    height: 135px;
+    float: left;
+}
+.one {
+    background-color: lightblue;
+}
+.two {
+    background-color: lightgreen;
+}
+.three {
+    background-color: hotpink;
+}
+.i-container {
+    width: 125px;
+    margin: 10px auto;
+}
+
+.icon {
+    color: #000;
+    font-size: 36px;
+    display: block;
+}
+
+/* /Footer */

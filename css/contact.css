@@ -1,0 +1,16 @@
+.contact-section {
+    width: 50%;
+    height: 500px;
+}
+
+.contact-form {
+    height: 517px;
+    width:100%;
+    border: none;
+}
+
+.map {
+    width: 300px;
+    height: 225px;
+    border: none;
+}
